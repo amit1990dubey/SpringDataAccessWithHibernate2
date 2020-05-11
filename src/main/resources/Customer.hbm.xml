@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<hibernate-mapping  package="com.ibm.spring">
+<hibernate-mapping  package="com.ibm.spring.hibernate">
     <class name = "Customers" table = "customers1" lazy="false">
         <id name ="cid" column="cid" type="int">
             <generator class ="increment"/>

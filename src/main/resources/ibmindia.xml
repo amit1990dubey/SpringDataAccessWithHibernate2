@@ -43,6 +43,6 @@
     </bean>
 
     <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager" autowire="constructor"/>
-    <bean id="cdao" class="com.ibm.spring.HibernateCustomerDAO"/>
+    <bean id="cdao" class="com.ibm.spring.hibernate.HibernateCustomerDAO"/>
 
 </beans>
